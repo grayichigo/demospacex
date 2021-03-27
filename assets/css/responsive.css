@@ -1,0 +1,155 @@
+/******************************************************** 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+*********************************************************/
+  
+@media (min-width: 768px) and (max-width: 1024px) {
+    /*********************************************************** 
+        CSS
+    *************************************************************/
+        header .navbar-toggler{
+            background: rgba(256,256,256,.2);
+        }
+        header .nav-item{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: end;
+                -ms-flex-pack: end;
+                    justify-content: flex-end;
+        }
+        .navbar-brand{
+            width: 50% !important;
+        }
+        .banner{
+            height: 50vh;
+            padding: 100px 0 80px 0;
+        }
+        .row h1{
+            font-size: 26px !important;
+            margin-top: 230px !important;
+        }
+        .background{
+            height: 70vh;
+        }
+        .contents .row{
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+        }
+        .contents .row .col-md-6{
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+        }
+        .contents .row .col-md-6 img{
+            max-width: 65%;
+            margin-bottom: 40px;
+        }
+        .background-2{
+            height: 17vh;
+        }
+        footer li{
+            margin: 0 5px;
+        }
+        footer a{
+            font-size: 10px;
+        }
+        .copyright{
+            font-size: 10px;
+        }
+      }
+    /********************************************************* 
+        ##Device = Most of the Smartphones Mobiles (Portrait)
+        ##Screen = B/w 320px to 479px
+    **********************************************************/
+      
+      @media (min-width: 320px) and (max-width: 480px) {
+    /******************************************************* 
+        CSS 
+    *********************************************************/
+        header .navbar-toggler{
+            background: rgba(256,256,256,.2) !important;
+        }
+        header .nav-item{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: end;
+                -ms-flex-pack: end;
+                    justify-content: flex-end;
+        }
+        .navbar-brand{
+            /* width: 50%; */
+        }
+        .navbar-brand img{
+            width: 100%;
+        }
+        .navbar-toggler{
+            padding: 0rem .3rem !important;
+            font-size: 1rem !important;
+            border-radius: .2rem !important;
+        }
+        .navbar-toggler-icon{
+            width: 1em !important;
+            height: 1em !important;
+        }
+        .nav-item a{
+            font-size: 8px;
+        }
+        .banner{
+            height: 32vh;
+            padding: 10px 0px;
+        }
+        .row h1{
+            font-size: 13px;
+            margin-top: 120px;
+            width: 90%;
+            margin-left: 20px;
+        }
+        .background{
+            height: 40vh;
+        }
+        .contents{
+            padding: 20px 0;
+        }
+        .contents .row{
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+        }
+        .contents .row .col-md-6{
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+        }
+        .contents .row .col-md-6 img{
+            max-width: 80%;
+            margin-bottom: 20px;
+        }
+        .background-2{
+            height: 28vh;
+        }
+        footer{
+            padding: 10px 0;
+        }
+        footer li{
+            margin: 0 3px;
+        }
+        footer a{
+            font-size: 5px;
+        }
+        .copyright{
+            font-size: 5px;
+        }
+      }

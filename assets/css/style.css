@@ -1,0 +1,122 @@
+/******************************************************************
+global css 
+*******************************************************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
+/********************************************* 
+header css
+ *********************************************/
+ header{
+    width: 100%;
+    position: absolute;
+ }
+ .containter-fluid{
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
+ }
+ .navbar-brand{
+     width: 30% !important;
+ }
+ .navbar-brand img{
+     width: 70% !important;
+ }
+ .active{
+     font-size: 15px !important;
+     font-weight: 600;
+ }
+ .active:hover{
+    cursor: pointer;
+    color: rgba(2556,256,256,.5) !important;
+    -webkit-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+ }
+/********************************************* 
+section 1
+**********************************************/
+.banner{
+    width: 100%;
+    background-image: url(../image/frame4_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding: 150px 0 80px 0;
+}
+.row h1{
+   font-size: 46px;
+   font-weight: 500;
+   margin-top: 170px;
+}
+/*********************************************
+section 2
+ *********************************************/
+ .background{
+    width: 100%;
+    background-image: url(../image/brian-mcgowan-I0fDR8xtApA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 136vh;
+ }
+/*********************************************
+section 3
+ *********************************************/
+.contents{
+    /* background: #000; */
+    padding: 50px 0;
+}
+/*********************************************
+section 4
+**********************************************/
+    
+/*********************************************
+section 5 
+**********************************************/
+.background-2{
+    background-image: url(../image/share.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+/********************************************* 
+footer
+ *********************************************/
+footer{
+    background: #000;
+    padding: 50px 0;
+}
+footer li{
+    display: inline-block !important;
+    margin: 0 16px;
+}
+footer a{
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+footer a:hover{
+    cursor: pointer;
+    color: rgba(2556,256,256,.5) !important;
+    -webkit-transition: .4s ease-in-out;
+    -o-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+}
+.copyright{
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(2556,256,256,.4);
+}
